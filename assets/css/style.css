@@ -4631,6 +4631,7 @@
     background: #f9fafc;
     position: relative;
     transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    
   }
   
   .meeta-event-schedule-2 .meeta-event-schedule-tabs .meeta-event-schedule-tabs-menu li::before {
@@ -4651,7 +4652,7 @@
   }
   
   .meeta-event-schedule-2 .meeta-event-schedule-tabs .meeta-event-schedule-tabs-menu li .meeta-event-schedule-time {
-    width: 286.5px;
+    width: 380.5px;
     border: 0;
     border-radius: 0;
     padding: 13px 0;
@@ -5083,7 +5084,8 @@
   
   .single-speaker .speaker-content::before {
     content: '';
-    width: 170px;
+    /* width: 170px; */
+    width: 200px;
     height: 60px;
     background-image: url(../images/shape/shape-7.png);
     background-position: center center;
@@ -5101,7 +5103,7 @@
     background-color: #ffffff;
     padding-bottom: 10px;
     padding-top: 10px;
-    max-width: 120px;
+    max-width: 147px;
     margin: 0 auto;
   }
   
@@ -5130,7 +5132,7 @@
     background-color: #fc097c;
     border-radius: 50%;
     position: absolute;
-    left: 25%;
+    left: 19%;
     bottom: 0px;
     z-index: -1;
   }
@@ -6280,7 +6282,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    background: rgba(5, 65, 218, 0.7);
+    background: rgba(70, 142, 55, 0.42);
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -10373,4 +10375,6 @@
     visibility: visible;
     transform: translateX(0);
   }
+  /* custom css */
+ 
   
