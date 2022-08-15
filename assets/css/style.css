@@ -331,8 +331,10 @@
   }
   
   .meeta-section-title-2 .main-title {
-    font-size: 54px;
-    line-height: 60px;
+    /* font-size: 54px;
+    line-height: 60px; */
+    font-size: 30px;
+    line-height: 35px;
     font-family: "Archivo", sans-serif;
     font-weight: 700;
   }
@@ -8554,8 +8556,10 @@
   }
   
   .contact-info-section .contact-info-wrap {
-    margin-top: -10px;
-    margin-bottom: -90px;
+    /* margin-top: -10px;
+    margin-bottom: -90px; */
+    margin-top: -75px;
+    margin-bottom: 35px;
     position: relative;
     z-index: 1;
   }
@@ -9920,7 +9924,7 @@
   }
   
   .meeta-footer-2 .footer-bottom-wrap {
-    padding-left: 125px;
+    /* padding-left: 125px; */
     margin-top: 80px;
   }
   
@@ -9962,7 +9966,7 @@
   
   .meeta-footer-2 .footer-bottom-wrap .footer-info p {
     font-size: 14px;
-    line-height: 30px;
+    line-height: 20px;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     color: #ffffff;
