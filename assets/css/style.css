@@ -220,7 +220,7 @@
   
   /*--Section Spacing--*/
   .section-padding {
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 150px;
   }
   
@@ -3312,7 +3312,7 @@
   }
   
   .meeta-hero-section-6 .meeta-hero-content .title {
-    font-size: 56px;
+    font-size: 48px;
     line-height: 87px;
     font-family: "Archivo", sans-serif;
     font-weight: 700;
