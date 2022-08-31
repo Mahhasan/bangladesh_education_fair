@@ -221,7 +221,7 @@
   /*--Section Spacing--*/
   .section-padding {
     padding-top: 100px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
   }
   
   @media only screen and (max-width: 1199px) {
