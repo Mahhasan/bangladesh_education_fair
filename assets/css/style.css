@@ -4543,7 +4543,7 @@
   
   .meeta-event-accordion-item {
     background-color: #ffffff;
-    padding: 20px 30px 25px;
+    padding: 20px 7px 25px;
     border-radius: 8px;
   }
   
@@ -4585,7 +4585,7 @@
   }
   
   .meeta-event-accordion-toggle .title {
-    font-size: 22px;
+    font-size: 17px;
     font-weight: 700;
     display: block;
   }
@@ -4705,7 +4705,8 @@
   
   .meeta-event-schedule-2 .meeta-event-schedule-tabs .meeta-event-schedule-tab-content .meeta-event-schedule-tab-pane .meeta-event-accordion .meeta-event-accordion-item {
     border-radius: 0;
-    padding-top: 30px;
+    padding-top: 1px;
+    padding-bottom: 0px;
   }
   
   .meeta-event-schedule-2 .meeta-event-schedule-tabs .meeta-event-schedule-tab-content .meeta-event-schedule-tab-pane .meeta-event-accordion .meeta-event-accordion-item .meeta-event-accordion-toggle {
