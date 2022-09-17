@@ -6243,7 +6243,7 @@
   /*  21 - Page Banner CSS
   /*----------------------------------------*/
   .page-banner-section {
-    min-height: 645px;
+    min-height: 375px;
     background-image: url(../images/pic-5.jpg);
     background-repeat: no-repeat;
     background-position: center center;
