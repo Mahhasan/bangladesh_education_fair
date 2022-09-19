@@ -1046,6 +1046,7 @@
     width: 100%;
     left: 0;
     z-index: 91;
+    background-color: #311a79;
   }
   
   .meeta-header-section .header-middle {
@@ -3277,14 +3278,15 @@
   .meeta-hero-section-6 {
     height: 600px;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-color: #0541da;
+    /* background-color: #ffffff; */
     overflow: hidden;
     position: relative;
     z-index: 1;
     display: flex;
     align-items: center;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
   }
   
   .meeta-hero-section-6::before {
@@ -3292,7 +3294,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    background: rgba(19, 19, 141, 0.5);
+    /* background: rgba(19, 19, 141, 0.5); */
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -3337,7 +3339,7 @@
   
   @media only screen and (max-width: 1199px) {
     .meeta-hero-section-6 {
-      height: 780px;
+      height: 600px;
     }
     .meeta-hero-section-6 .meeta-hero-content .title {
       font-size: 65px;
@@ -3347,7 +3349,7 @@
   
   @media only screen and (max-width: 991px) {
     .meeta-hero-section-6 {
-      height: 710px;
+      height: 600px;
     }
     .meeta-hero-section-6 .meeta-hero-content .title {
       font-size: 65px;
@@ -3357,7 +3359,8 @@
   
   @media only screen and (max-width: 767px) {
     .meeta-hero-section-6 {
-      height: 650px;
+      height: 142px;
+      margin-top: 100px;
     }
     .meeta-hero-section-6 .meeta-hero-content .title {
       font-size: 55px;
@@ -3688,7 +3691,7 @@
   }
   
   .meeta-about-images {
-    padding: 75px 100px;
+    padding: 0px 100px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -6243,16 +6246,18 @@
   /*  21 - Page Banner CSS
   /*----------------------------------------*/
   .page-banner-section {
-    min-height: 375px;
+    min-height: 412px;
     background-image: url(../images/pic-5.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     display: flex;
     align-items: center;
     padding-top: 100px;
     position: relative;
     z-index: 1;
+    
+    margin-top: 100px;
   }
   
   @media only screen and (max-width: 1199px) {
@@ -6285,7 +6290,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    background: rgba(70, 142, 55, 0.42);
+    /* background: rgba(70, 142, 55, 0.42); */
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -6296,7 +6301,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    background-image: url(../images/shape/banner-shape.png);
+    /* background-image: url(../images/shape/banner-shape.png); */
     background-repeat: no-repeat;
     background-position: center bottom;
     width: 100%;
