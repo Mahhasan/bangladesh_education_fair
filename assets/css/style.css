@@ -319,14 +319,14 @@
   }
   
   .meeta-section-title-2 {
-    margin-bottom: 55px;
+    margin-bottom: 25px;
   }
   
   .meeta-section-title-2 .sub-title {
     font-size: 18px;
     font-family: "Archivo", sans-serif;
     font-weight: 600;
-    color: #fc097c;
+    color: #eb3301;
     margin-bottom: 5px;
   }
   
@@ -726,14 +726,14 @@
   }
   
   .btn-primary {
-    background-color: #fc097c;
-    border-color: #fc097c;
+    background-color: #eb3301;
+    border-color: #eb3301;
     color: #ffffff;
   }
   
   .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    background-color: #fc097c;
-    border-color: #fc097c;
+    background-color: #eb3301;
+    border-color: #eb3301;
   }
   
   .btn-secondary {
@@ -1189,19 +1189,19 @@
   }
   
   .header-navigation .main-menu li.active-menu > a {
-    color: #fc097c;
+    color: #f03400;
   }
   
   .header-navigation .main-menu li.active-menu > a::after {
-    color: #fc097c;
+    color: #f03400;
   }
   
   .header-navigation .main-menu li:hover > a {
-    color: #fc097c;
+    color: #f03400;
   }
   
   .header-navigation .main-menu li:hover > a::after {
-    color: #fc097c;
+    color: #f03400;
   }
   
   .header-navigation .main-menu li:hover > .sub-menu {
@@ -7326,7 +7326,7 @@
   .feature-item {
     background: #ffffff;
     box-shadow: 0px 0px 84px 0px rgba(0, 0, 0, 0.05);
-    padding: 40px 45px 50px;
+    padding: 20px 20px 20px;
   }
   
   .feature-item .feature-icon img {
@@ -8564,7 +8564,7 @@
   .contact-info-section .contact-info-wrap {
     /* margin-top: -10px;
     margin-bottom: -90px; */
-    margin-top: -75px;
+    margin-top: 0px;
     margin-bottom: 35px;
     position: relative;
     z-index: 1;
@@ -8572,14 +8572,14 @@
   
   @media only screen and (max-width: 1199px) {
     .contact-info-section .contact-info-wrap {
-      margin-top: -30px;
+      margin-top: 0px;
     }
   }
   
   .contact-info-section .contact-info-wrap .single-contact-info {
     background: #ffffff;
     box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.11);
-    padding: 55px;
+    padding: 25px;
     margin-top: 70px;
   }
   
